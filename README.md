@@ -18,31 +18,31 @@ This platform lets you test and analyze AI personalities for social engineering 
 - **Security Dashboard**: Visualizes metrics and logs detected security events
 - **Modern UX**: Typing indicator, read receipts, auto-growing input, and more
 
-## Tech Stack
-- Next.js 14, React 18, TypeScript
-- Tailwind CSS
-- Ollama (Llama 3 model)
+## ⚡️ Quick Setup Guide
 
-## Getting Started
+### 1. Install Ollama
+- Download and install Ollama from [https://ollama.com/](https://ollama.com/)
+- Follow the instructions for your OS (macOS, Windows, Linux)
 
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd simple-chat
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Start Ollama with Llama 3:
-   ```bash
-   ollama run llama3
-   ```
-4. Run the development server:
-   ```bash
-   npm run dev
-   ```
-5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+### 2. Download the Llama 3 Model
+- After installing Ollama, run:
+  ```bash
+  ollama run llama3
+  ```
+- This will download and start the Llama 3 model locally
+
+### 3. Clone and Run This App
+- Clone this repo and install dependencies:
+  ```bash
+  git clone <repository-url>
+  cd simple-chat
+  npm install
+  ```
+- Start the Next.js dev server:
+  ```bash
+  npm run dev
+  ```
+- Open [http://localhost:3000](http://localhost:3000) in your browser
 
 ## Usage
 - Select a personality from the sidebar
