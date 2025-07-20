@@ -1,5 +1,6 @@
-Llover Dating App
-# AI Security Analysis Platform
+# Llover Dating App
+
+## AI Security Analysis Platform
 
 A security research platform simulating LLM-only chat with multiple AI personalities. Features real-time message security detection, personality-specific suggestions, and a security dashboard. No dialog tree or hybrid logic—everything is powered by LLM responses.
 
